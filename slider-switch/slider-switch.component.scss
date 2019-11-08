@@ -1,0 +1,57 @@
+@import 'main';
+
+#sliderrr {
+    height: 4rem;
+    border: 1px solid #777777;
+    border-radius: 3px;
+    position: relative;
+    padding: .2rem;
+    display: inline-flex;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+  }
+  
+  .slider-message {
+    display: flex;
+    vertical-align: middle;
+    margin: auto 1rem;
+    color: $white;
+    font-size: 2rem;
+    z-index: 10;
+  }
+  
+  .arrow {
+    position: relative;
+    margin-left: 1rem;
+    display: flex;
+  }
+
+  img {
+    display: flex;
+    vertical-align: middle;
+  }
+
+  // optional background animation for the text
+  
+  // p {
+  //   // width: 100%;
+  //   animation: slidetotoggle infinite 10s linear;
+  //   background: linear-gradient(90deg, $white 0%, $white 25%, $gray-3 50%, $white 75%, $white 100%);
+  //   -webkit-background-clip: text;
+  //   -webkit-text-fill-color: transparent;
+  // }
+ 
+//   @keyframes slidetotoggle {
+//    0% {
+//      background-position: -120px 0;
+//    }
+// //    25% {
+// //     background-position: 40px 0;
+// //    }
+// //    75% {
+// //     background-position: 80px 0;
+// //    }
+//    100%{
+//      background-position: 120px 0;
+//    }
+//  }

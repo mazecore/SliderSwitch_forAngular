@@ -1,0 +1,12 @@
+
+   <div id="sliderrr" 
+      (mousedown)="onMouseDown($event)"
+      (touchstart)="touchStart($event)"
+      [ngStyle]="{'width.px': [sliderWidth], 'background-color': [message.bgColor] }">
+         <div class="arrow" [ngStyle]="{'transform': [translateX], 'width.px': [sliderWidth] }">
+            <img  src="./assets/ic_arrow_right.svg" [ngStyle]="{'opacity': [arrowOpacity] }"> 
+            <p class="slider-message" [ngStyle]="{'opacity': [opacity] }">
+               {{message.word}}
+            </p>
+         </div>
+   </div>
